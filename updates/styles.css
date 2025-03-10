@@ -1,0 +1,60 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #0a0a0a;
+    color: #0ff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    color: #0f0;
+    font-size: 2.5em;
+}
+
+.events {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.event-card {
+    width: 60%;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+    transition: transform 0.3s;
+}
+
+.event-card:hover {
+    transform: scale(1.05);
+}
+
+.bad-event {
+    background: rgba(255, 0, 0, 0.2);
+    border-left: 5px solid red;
+}
+
+.good-event {
+    background: rgba(0, 255, 0, 0.2);
+    border-left: 5px solid green;
+}
+
+button {
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 1.5em;
+    color: #000;
+    background: #0ff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #00f;
+    color: #fff;
+    transform: scale(1.1);
+}
