@@ -89,7 +89,7 @@ const blogPosts = [
         excerpt: 'A beginner\'s guide to Arduino...',
         date: '10 March 2025',
         image: 'assets/2.jpg',
-        link: '#'
+        link: 'https://atik806.github.io/portfolio/'
     }
     // Add more blog posts as needed
 ];
